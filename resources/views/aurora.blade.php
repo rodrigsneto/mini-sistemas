@@ -45,12 +45,7 @@
             }
 
             if (charAtual === "g") {
-                let charAnterior = texto[i - 1];
-                let charPosterior = texto[i + 1];
-
-                if (charAnterior == " " || charAnterior == "" ) {
-                    charAtual = "d";
-                }
+                charAtual = "d";
             }
 
             if (charAtual === "r") {
